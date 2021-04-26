@@ -1,4 +1,4 @@
-var snowmax=100;
+var snowmax=50;
 var snowcolor=new Array("#AAAACC","#DDDDFF","#CCCCDD","#F3F3F3","#F0FFFF","#FFFFFF","#EFF5FF")
 var snowtype=new Array("Arial Black","Arial Narrow","Times","Comic Sans MS");
 var snowletter="&#10052;";
