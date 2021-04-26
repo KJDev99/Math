@@ -4,42 +4,15 @@
     box-sizing: border-box;
 }
 .body{
-    min-height: 100vh;
+    height: 100vh;
     background: rgb(206, 197, 197);
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    position: relative;
-
-}
-.year{
-    position: absolute;
-    top: 5%;
-    left: 42%;
-    font-size: 35px;
-    color: rgb(221, 65, 65);
 }
 .text{
-    position: absolute;
-    top: 80%;
-    left: 75%;
+    align-items: flex-start;
     font-size: 35px;
     color: rgb(80, 168, 139);
-}
-@media(max-width:1200px){}
-@media(max-width:768px){
-    .year{
-        left: 40%;
-    }
-}
-@media(max-width:576px){
-    .year{
-        left: 37%;
-    }
-}
-@media(max-width:320px){
-    .year{
-        left: 25%;
-    }
 }
